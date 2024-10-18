@@ -15,3 +15,8 @@ Enter your reflections on this section here.
 ### Accessibility
 
 Enter your reflections on this section here.
+
+1. Yes I was able to complete this exercise on my own as it was very similiar to the form exercise from the previous week.
+2. The exercise was definitely helpful in re-affirming how to go about constructing a proper form.
+3. Slight confusion on how to handle the 'create' button (as it's similiar in functionality to the submit input type, but 'create' isn't a designated action).
+4. None that I can think of
