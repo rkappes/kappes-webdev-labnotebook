@@ -1,6 +1,39 @@
+/* implement mobile view first */
+/* in this case,the purple is for mobile view  */
+body {
+  background: var(--purple);
+  color: var(--white);
+}
+
+/* anything smaller than 415px will be the mobile view */
+/* once 415px width is hit, this is applied */
+@media (min-width: 415px) and (max-width: 1023px) {
+  body {
+    background: var(--orange);
+    color: var(--black);
+  }
+}
+
+/* once 1024px is hit, this is applied */
 @media (min-width: 1024px) {
   body {
     background: var(--green);
     color: var(--white);
   }
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--black);
+}
+
+li {
+  display: inline-block;
+  color: var(--white);
+}
+
+#parmesan {
 }
