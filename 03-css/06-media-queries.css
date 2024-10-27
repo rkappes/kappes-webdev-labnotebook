@@ -5,6 +5,17 @@ body {
   color: var(--white);
 }
 
+/* make nav items stack on smaller screen */
+@media (max-width: 414px) {
+  nav ul li {
+    width: 100%;
+  }
+
+  .main {
+    margin-top: 220px;
+  }
+}
+
 /* anything smaller than 415px will be the mobile view */
 /* once 415px width is hit, this is applied */
 @media (min-width: 415px) and (max-width: 1023px) {
@@ -23,17 +34,45 @@ body {
 }
 
 nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   background: var(--black);
 }
 
-li {
+/* get rid of bullet points */
+/* specify the ul within the nav */
+nav ul {
+  list-style-type: none;
+  /* account for the extra padding that the hover adds, so make padding here 0*/
+  margin: 0;
+  padding: 0;
+}
+
+/* make the nav links appear next to each other*/
+/* have more padding on the left side and between the links*/
+nav ul li {
   display: inline-block;
+}
+
+/* make nav bar text white and get rid of underline */
+/* specify the a within a ul in the nav */
+nav ul li a {
+  display: block;
+  /* margin: 1em; */ /*when hovering, don't want the extra margin*/
+  padding: 1em;
+  text-decoration: none;
   color: var(--white);
 }
 
-#parmesan {
+nav ul li a:hover {
+  background-color: var(--gray1);
+}
+
+/* bring the top of main down below the nav bar */
+/* make the left side padding match the nav bar padding */
+.main {
+  margin-top: 100px;
+  padding: 0.5em;
 }
