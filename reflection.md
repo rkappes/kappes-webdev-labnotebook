@@ -20,3 +20,10 @@ Enter your reflections on this section here.
 2. The exercise was definitely helpful in re-affirming how to go about constructing a proper form.
 3. Slight confusion on how to handle the 'create' button (as it's similiar in functionality to the submit input type, but 'create' isn't a designated action).
 4. None that I can think of
+
+### CSS
+
+1. I found the videos very helpful this time.
+2. Exercise 6, with the media queries was cool to learn about
+3. Maybe I missed this in the readings/lecture, but the Exercise 6 was the first time I'd heard of that concept.
+4. Layout and Position exericises were definitely the hardest for me.
