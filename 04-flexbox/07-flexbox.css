@@ -3,19 +3,64 @@
 }
 
 /* Flex Container 1 */
+.flex-container-1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
 
 /* Flex Container 2 */
+.flex-container-2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: right;
+}
 
 /* Flex Container 3 */
-
+.flex-container-3{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  /* justify-content: right; */
+  align-items: flex-end;
+  height: 400px;
+}
 /* use height: 400px; on the container */
 
 /* Flex Container 4 */
-
+.flex-container-4{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+}
 /* Flex Container 5 */
+.flex-container-5{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
 
+.flex-container-5 .item1,
+.flex-container-5 .item3,
+.flex-container-5 .item6{
+  height: 200px;
+}
+
+.flex-container-5 .item2,
+.flex-container-5 .item8
+{
+  height: 300px;
+}
 /* Flex Container 6 */
+.flex-container-6 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  height: 300px;
 
+}
 .flex-container-6 .flex-item {
   width: 400px;
 }
