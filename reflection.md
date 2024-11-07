@@ -27,3 +27,10 @@ Enter your reflections on this section here.
 2. Exercise 6, with the media queries was cool to learn about
 3. Maybe I missed this in the readings/lecture, but the Exercise 6 was the first time I'd heard of that concept.
 4. Layout and Position exericises were definitely the hardest for me.
+
+### Flexbox, Grid, and Bootstrap
+
+1. Again, I found the videos very helpful - specially for the 03-grid and modal exercise.
+2. I found all of these exercises helpful - I think the bootstrap grid exercises were good in order to see the difference between using normal grid and bootstrap grid.
+3. Everything was explained pretty well - just a lot of new information to take in!
+4. An exercise that applies either the flexbox or grid to something other than boxes would be helpful - ie something that have more content within the container.
