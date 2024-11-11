@@ -1,12 +1,14 @@
 const formatItems = (input) => {
   // return a string of the concatenated numbers, separated by commas and with three digits after the decimal point
-
+  output = [];
   // for reference, see the MDN Number page:
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
-  input.foreach((num) => {
-    output += ", " + num.toPrecision(3);
+  input.forEach((num) => {
+    output.push(num.toFixed(3));
+    // console.log(output);
   });
-  return input;
+  output.join(", ");
+  return output;
 };
 
 console.log(formatItems([1, 4, 17, 26, 41]));
