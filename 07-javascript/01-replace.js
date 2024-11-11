@@ -3,8 +3,8 @@ const replaceItems = (input) => {
 
   // for reference, see the MDN "Regular Expressions" entry:
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
-  input.replaceAll("gold", "SHINY");
-  input.replaceAll("wander", "roam");
+  input = input.replaceAll(/gold/gi, "SHINY");
+  input = input.replaceAll(/wander/gi, "roam");
   return input;
 };
 
