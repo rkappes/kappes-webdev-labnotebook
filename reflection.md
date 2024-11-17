@@ -34,3 +34,17 @@ Enter your reflections on this section here.
 2. I found all of these exercises helpful - I think the bootstrap grid exercises were good in order to see the difference between using normal grid and bootstrap grid.
 3. Everything was explained pretty well - just a lot of new information to take in!
 4. An exercise that applies either the flexbox or grid to something other than boxes would be helpful - ie something that have more content within the container.
+
+### Javascript Week 6
+
+1. The exercises went pretty well, felt pretty straight forward. There were some minor things that I had to look at the videos to fix.
+2. I found these helpful, they seemed trivial but Javascript is different enough from other coding languages that it was good to do these.
+3. I think everything was explained pretty well
+4. None that I can think of!
+
+### Javascript Week 7
+
+1. I definitely had a lot more trouble with theses exercises than last week's. The videos were very helpful
+2. The fetch exercise was really good to better understand how promises worked.
+3. I found the reduce function a bit more complicated to understand.
+4. None that I can think og!
