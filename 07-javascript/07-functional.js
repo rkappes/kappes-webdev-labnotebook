@@ -44,9 +44,13 @@ const reduceHouses = (characters) => {
   // Return an object with the number of characters from each house
   const houseCount = characters.reduce((accumulator, currentValue) => {
     house = currentValue.house;
-    accumulator + currentValue.house, 0;
-  });
-
+    if (accumulator.hasOwnProperty(house)) {
+      accumulator[house]++;
+    } else {
+      accumulator[house] = 1;
+    }
+    return accumulator;
+  }, {});
   return houseCount;
 };
 
