@@ -47,4 +47,11 @@ Enter your reflections on this section here.
 1. I definitely had a lot more trouble with theses exercises than last week's. The videos were very helpful
 2. The fetch exercise was really good to better understand how promises worked.
 3. I found the reduce function a bit more complicated to understand.
-4. None that I can think og!
+4. None that I can think of!
+
+### JQuery, Ajax Week 8
+
+1. I definitely found the videos helpful as Jquery and Ajax are new for me.
+2. These were good exercises, it was cool to see how to rewrite the same JS in JQuery.
+3. Maybe a bit more on ajax examplesin class would be helpful.
+4. None that I can think of!
