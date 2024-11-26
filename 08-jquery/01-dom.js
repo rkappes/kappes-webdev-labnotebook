@@ -41,14 +41,19 @@ $("document").ready(() => {
 // When the user enters input text, copy the user input to the output area
 
 // Fetch JavaScript objects representing specific elements in the DOM
-let userInput2 = document.querySelector("#userInput2");
-let output2 = document.querySelector("#output2");
+// let userInput2 = document.querySelector("#userInput2");
+// let output2 = document.querySelector("#output2");
 
 // Add an event listener on the target element
-userInput2.addEventListener("input", handleInput);
+// userInput2.addEventListener("input", handleInput);
 
 // Callback function to handle event
-function handleInput(event) {
-  console.log("click event", event);
-  output2.textContent = userInput2.value;
-}
+// function handleInput(event) {
+//   console.log("click event", event);
+//   output2.textContent = userInput2.value;
+// }
+$("document").ready(() => {
+  $("#userInput2").on("input", () => {
+    $("#output2").text($("#userInput2").val());
+  });
+});
